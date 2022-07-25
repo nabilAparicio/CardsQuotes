@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 import Quotes from './json/quotes.json'
 import Colors from './json/colors.json'
-import QuoteBox from './QuoteBox'
+import QuoteBox from './components/QuoteBox'
 
 function App() {
   const randomElement = (arr) => arr[Math.floor(Math.random() * arr.length)]
